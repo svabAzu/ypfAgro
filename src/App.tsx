@@ -6,7 +6,7 @@ import LoginYPF from  './components/LoginYPF'
 export const App =() => {
   return <div>
 
-    <LoginYPF/>
+    <Register/>
   </div>
 }
 export default App
