@@ -1,13 +1,13 @@
-//import { Register } from "./components/Register";
-import { LoginYPF } from "./components/LoginYPF";
+import { Register } from "./components/Register";
+//import { LoginYPF } from "./components/LoginYPF";
 import "./App.css"
 
 
 export const App = () => {
   return (
     <div>
-      {/* <Register /> */}
-      <LoginYPF />
+      { <Register /> }
+      {/*< LoginYPF />*/}
     </div>
   );
 };
