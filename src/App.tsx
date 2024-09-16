@@ -1,12 +1,14 @@
-import { Register } from "./components/Register"
+import { Register } from "./components/Register";
+import { LoginYPF } from "./components/LoginYPF";
+import "./App.css"
 
-import React from "react";
-import LoginYPF from  './components/LoginYPF'
 
-export const App =() => {
-  return <div>
-
-    <Register/>
-  </div>
-}
-export default App
+export const App = () => {
+  return (
+    <div>
+      {/* <Register /> */}
+      <LoginYPF />
+    </div>
+  );
+};
+export default App;
